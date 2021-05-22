@@ -4,6 +4,9 @@
     outline: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Lato', sans-serif;
 }
@@ -416,14 +419,11 @@ a{
     height: 680px;
     text-align: center;
     background-image: url(../img/last-banner.jpg);
-    
-    
 }
 #contact .contact_from {
     background-color: rgba(75, 202, 255,.5);
     padding:25px 25px;
     border: 1px solid var(--white-color);
-
 }
 #contact .contact_from h2{
     font-size:36px;
